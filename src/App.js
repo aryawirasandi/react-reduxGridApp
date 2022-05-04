@@ -6,6 +6,14 @@ function App() {
     <div>
       <Provider store={store}>
         <Grid/>
+        <ul>
+          <li>
+            click once the tile to add color
+          </li>
+          <li>
+            double click to remove the added color
+          </li>
+        </ul>
       </Provider>
     </div>
   );
